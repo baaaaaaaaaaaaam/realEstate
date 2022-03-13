@@ -1,24 +1,18 @@
-# estate
+# vue 3 공부겸 공공 API 사용하여 아파트 매매 , 부동산 거래 추세 , 부동산 뉴스를 볼수있는 반응형 웹사이트를 만들 예정입니다.
 
-## Project setup
+##  기능 
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+1. 지역별 월간 아파트 매매 데이터를 카카오 맵에 표시해주고 ,  근처 해당 부동산 리스트 보여주기
+2. 부동산 뉴스 api사용하여 뉴스 확인
+3. 연령별/성별 부동산 거래 데이터
 ```
 
-### Compiles and minifies for production
+### 실행시 주의사항 
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+1.  가장먼저 env 에 VUE_APP_SALEKEY 와 VUE_APP_KAKAOKEY 을 만들어 넣어주어야합니다.
+2.  공공API의 경우 신청후 3~4일이 지나야 데이터를 가져올 수 있습니다. ( 변수병 : VUE_APP_SALEKEY )
+3.  카카오 API키의 경우 javascript key 를 복사해 만들어줍니다.  ( 변수병 : VUE_APP_KAKAOKEY )
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 개발 기간
+2022년 3월 10일 ~  
